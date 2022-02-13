@@ -47,6 +47,7 @@ namespace TweetAPI.Controllers
 
                 return new JsonResult("Added successfully");
             }
+            //Exception
             catch(Exception ex)
             {
                 return new JsonResult(ex);
